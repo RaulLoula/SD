@@ -6,7 +6,12 @@ app.use(bodyParser.json());
 const axios = require("axios");
 contador = 0;
 app.get ('/lembretes', (req, res) => {
+
 	res.send(lembretes);
+	
+	
+
+
  });
  app.put ('/lembretes',async (req, res) => {
 	contador++;
